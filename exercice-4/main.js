@@ -1,8 +1,8 @@
 (function main() {
 	let lancementOk = false;
-	let niveauDeCarburant = 17000;
+	const niveauDeCarburant = 17000;
 
-	if (niveauDECarburant >= 20000) {
+	if (niveauDeCarburant >= 20000) {
 		console.log('Niveau de carburant vérifié.');
 		lancementOk = true;
 	} else {
